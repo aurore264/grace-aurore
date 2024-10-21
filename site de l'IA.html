@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site de l'IA.css">
+    <title>Boutique en ligne</title>
+    <script src="page1.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue dans notre boutique en ligne</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Produits</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="products">
+            <h2>Nos Produits</h2>
+            <div class="product">
+                <img src="1..jpeg" alt="Produit 1" class="product-image">
+                <h3 class="product-title">Produit 1</h3>
+                <p class="product-description">enssemble en crochet </p>
+                <span class="product-price">15.000FCFA</span>
+                <button onclick="addToCart('Article 1', 15000)">Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="6.jpeg" alt="Produit 2" class="product-image">
+                <h3 class="product-title">Produit 2</h3>
+                <p class="product-description">pantalon en crochet a 3 couleur</p>
+                <span class="product-price">20.000FCFA</span>
+                <button onclick="addToCart('Article 2', 20000)">Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="15.jpeg" alt="Produit 3" class="product-image">
+                <h3 class="product-title">Produit 3</h3>
+                <p class="product-description">petit top sexy</p>
+                <span class="product-price">5000FCFA</span>
+                <button onclick="addToCart('Article 3', 5000)">Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="22.jpeg" alt="Produit 4" class="product-image">
+                <h3 class="product-title">Produit 4</h3>
+                <p class="product-description">chapeaux</p>
+                <span class="product-price">7000FCFA</span>
+                <button onclick="addToCart('Article 4', 7000)">Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="13.jpeg" alt="Produit 5" class="product-image">
+                <h3 class="product-title">Produit 5</h3>
+                <p class="product-description">petite culotte sexy</p>
+                <span class="product-price">4000FCFA</span>
+                <button onclick="addToCart('Article 5', 4000)">Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="21.jpeg" alt="Produit 6" class="product-image">
+                <h3 class="product-title">Produit 6</h3>
+                <p class="product-description">petit top sexy</p>
+                <span class="product-price">3000FCFA</span>
+                <button onclick="addToCart('Article 6', 3000)">Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="19.jpeg" alt="Produit 7" class="product-image">
+                <h3 class="product-title">Produit 7</h3>
+                <p class="product-description">haut de bikini</p>
+                <span class="product-price">3000FCFA</span>
+                <button onclick="addToCart('Article 7', 3000)">Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="23.jpeg" alt="Produit 8" class="product-image">
+                <h3 class="product-title">Produit 8</h3>
+                <p class="product-description">bonnet multicolor</p>
+                <span class="product-price">5000FCFA</span>
+                <button onclick="addToCart('Article 8', 5000)">Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="16.jpeg" alt="Produit 9" class="product-image">
+                <h3 class="product-title">Produit 9</h3>
+                <p class="product-description">chapeaux bleu jeaune</p>
+                <span class="product-price">7000FCFA</span>
+                <button onclick="addToCart('Article 9', 7000)">Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="24.jpeg" alt="Produit 10" class="product-image">
+                <h3 class="product-title">Produit 10</h3>
+                <p class="product-description">petit top  blanc sexy</p>
+                <span class="product-price">3000FCFA</span>
+                <button onclick="addToCart('Article 10', 3000)">Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="3.jpeg" alt="Produit 11" class="product-image">
+                <h3 class="product-title">Produit 11</h3>
+                <p class="product-description">petit chapeaux orange</p>
+                <span class="product-price">7000FCFA</span>
+                <button onclick="addToCart('Article 11', 7000)">Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="22.jpeg" alt="Produit 12" class="product-image">
+                <h3 class="product-title">Produit 12</h3>
+                <p class="product-description">petit chapeaux rose</p>
+                <span class="product-price">7000FCFA</span>
+                <button onclick="addToCart('Article 12', 7000)">Ajouter au panier</button>
+            </div>
+            <div class="product">
+                <img src="8.jpeg" alt="Produit 13" class="product-image">
+                <h3 class="product-title">Produit 13</h3>
+                <p class="product-description">petit chapeaux a couleur unique</p>
+                <span class="product-price">4000FCFA</span>
+                <button onclick="addToCart('Article 13', 4000)">Ajouter au panier</button>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>À propos de nous</h2>
+            <p>Nous sommes passionnés par la vente de produits de qualité. Notre mission est de fournir le meilleur service client possible.</p>
+            NB: NOUS VOUS PRIONS DE FAIRE LA CAPTURE DE VOTRES PANIER AVEC LE TOTAL ET NOUS L'ENVOYER SUR WhatsApp OU Instagram AFIN DE VALIDER VOTRE COMMANDE MERCI.
+        </section>
+        <div class="container">
+            <h1>Contactez-nous</h1>
+            <p>Pour toute question ou demande, n'hésitez pas à nous contacter via les liens suivants :</p>
+            <div class="social-links">
+                <a href="https://wa.me/+2250150446951" target="_blank" class="social-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+                </a>
+                <a href="https://www.instagram.com/aur_iss?igsh=N2p5Z2Iza2I0eTZ2&utm_source=qr" target="_blank" class="social-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
+                </a>
+            </div>
+        </div>
+        <div id="cart">
+            <h2>Mon Panier</h2>
+            <ul id="cart-items"></ul>
+            <strong>Total: <span id="total-price">0</span> FCFA</strong>
+        </div>
+    
+        <script>
+            let cart = [];
+            let total = 0;
+    
+            function addToCart(name, price) {
+                cart.push({ name, price });
+                total += price;
+                renderCart();
+            }
+    
+            function renderCart() {
+                const cartItems = document.getElementById('cart-items');
+                cartItems.innerHTML = '';  // Réinitialiser le contenu du panier
+    
+                cart.forEach(item => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `${item.name} - ${item.price} FCFA`;
+                    cartItems.appendChild(listItem);
+                });
+    
+                document.getElementById('total-price').textContent = total;
+            }
+        </script>
+    <footer>
+        <p>&copy; 2024 Boutique en ligne. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
